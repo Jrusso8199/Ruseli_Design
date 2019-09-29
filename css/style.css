@@ -1,0 +1,204 @@
+﻿html, body{
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	padding-top: 70px;
+}
+
+.navbar {
+	background-color: #23415c;
+	padding: 1% 0;
+	font-size: 1.2em;
+}
+
+.navbar-brand {
+	min-height: 55px;
+	padding: 0 15px 5px;
+}
+
+.navbar-default .navbar-nav li a {
+	color: #d5d5d5;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:active {
+	color: #ffffff;
+}
+
+#home {
+	background: url(../img/Nature-1080p-folder-1920x1080-wallpapers.jpg) no-repeat center center fixed;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+.landing-text {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.landing-text h1 {
+	font-size: 500%;
+	font-weight: 700;
+}
+
+.padding {
+	padding: 80px 0;
+}
+
+.padding img {
+	width: 100%;
+}
+
+#fixed {
+	background: url(../img/hi-tech-keyboard-l.jpg) no-repeat center center fixed;
+	display: table;
+	height: 60%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+footer {
+	background-color: #23415C;
+	/* bottom: 0px; */
+	color: white;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 250px;
+	margin: 0;
+	padding: 10px;
+	width: 100%;
+}
+
+footer div {
+	height: 200px;
+	margin: auto;
+	padding: 10px;
+	text-align: center;
+}
+
+#foot_3 {
+	text-align: right;
+}
+
+.fa {
+	padding: 15px;
+	font-size: 25px;
+	color: white;
+}
+
+.fa:hover {
+	color: #d5d5d5;
+	text-decoration: none;
+}
+
+.icon {
+	max-width: 200px;
+}
+
+@media (max-width: 768px) {
+	.landing-text h1 {
+		font-size: 300%;
+	}
+	.fa {
+		font-size: 20px;
+		padding: 10px;
+	}
+	.icon {
+		padding-top: 5%;
+		max-width: 100px;
+	}
+}
+
+.monospace {
+	font-family: Consolas,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,sans-serif;
+}
+.contact-main{
+	width: 100%;
+	background-color: black;
+}
+.contact-container {
+	position: relative;
+	align-content: center;
+	padding: 70px 10px;
+	max-width: 600px;
+	color: white;
+}
+
+#comments, #email, #first_name, #last_name, #telephone {
+	background-color: rgba(214, 213, 213, 0.158);
+	color: white;
+	border: none;
+	outline: none;
+}
+
+#tech_skills{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 0px;
+}
+
+#skills_1 {
+	flex: 1;
+}
+
+#skills_2 {
+	flex: 2;
+}
+
+.two_column_right {
+	background: url(../img/white-waves.png) repeat;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;			
+	justify-content: center;
+	margin-top: 20px;
+
+}
+
+
+@media (max-width: 540px) {
+	#soft_skills {
+		width: 100%;
+		text-align: center;
+	}
+}
+
+#soft_skills {
+	box-shadow: 5px 0px 20px gray;
+	padding: 10px;	
+	background-color: rgba(51, 137, 218, 0.123);
+}
+
+#soft_skills ul {
+	flex: 1;
+	margin: 0;
+	padding: 0;
+}
+
+#soft_skills ul li{
+	text-decoration: none;
+	list-style: none;
+	margin-bottom: 20px;
+}
+
+#info_side {
+	flex: 1;
+	padding: 10px;
+	background-color:rgba(93, 170, 93, 0.123);
+}
+
+.smaller_width {
+	max-width: 800px;
+}
+
+#education ul li {
+	list-style: none;
+}
